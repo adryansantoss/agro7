@@ -1,0 +1,26 @@
+    h1,p,button,a,i{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fa-twitter-square,
+    .fa-whatsapp-square,
+    .fa-facebook-square,
+    .fa-linkedin {
+        transition: 1s;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #1DA1F2;
+    }
+    
+    .fa-whatsapp-square:hover {
+        color: #4AC959;
+    }
+    
+    .fa-facebook-square:hover {
+        color: #4267B2;
+    }
+    
+    .fa-linkedin:hover {
+        color: #2867B2;
+    }

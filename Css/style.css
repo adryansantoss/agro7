@@ -1,0 +1,331 @@
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+    
+    .head {
+        width: 100%;
+        height: 60px;
+        background-color: #006400;
+        display: flex;
+        align-items: center;
+    }
+    
+    .head h1 {
+        margin-left: 100px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .head .sociais {
+        font-size: 28px;
+        width: calc(100% - 440px);
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .head .sociais>*{
+        cursor: pointer;
+    }
+    
+    .head .sociais i {
+        padding: 8px;
+    }
+
+    .head-2{
+        height: 80px;
+        border-bottom: 3px solid #efefef;
+        display: flex;
+        align-items: center;
+    }
+
+    .head-2 .buttons{
+        margin-left: 85px;
+    }
+
+    .head-2 .buttons a{
+        text-decoration: none;
+        color: #8b8b8b;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 32px;
+    }
+
+    .head-2 .search{
+        margin-left: 45%;
+    }
+
+    .head-2 .search input[type='search']{
+        height: 25px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 2px;
+        color: #8b8b8b;
+    }
+
+    .head-2 .search > *{
+        margin-right: 10px;
+    }
+
+    .head-2 .search i{
+        cursor: pointer;
+    }
+
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    button.slick-prev {
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url(../img/anterior.png);
+        top: 35%;
+        left: 14%;
+    }
+    button.slick-next {
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url(../img/proximo.png);
+        top: 35%;
+        right: 14%;
+    }
+    .slick-list {
+        width: 100%!important;
+    }
+    .slick-initialized {
+        overflow: hidden;
+    }
+    .slick-dots li button {
+        font-size: 0px;
+        border: 5px solid black;
+        width: 26px;
+        height: 26px;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+
+    }
+    .slick-dots {
+        margin: 0 auto;
+        width: 50%;
+        position: absolute;
+        left: 46%;
+        top: 650px;
+    }
+
+    li.slick-active button {
+        background:  #32CD32;
+    }
+
+    .slick-dots li {
+        padding-left: 10px;
+        display: inline-block;
+    }
+
+    .content-slider{
+        border: 0;
+        border-bottom: 3px solid #efefef;
+    }
+
+    .content{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content .content-questions strong{
+        color: #646464;
+    }
+
+    .content .content-questions h1{
+        color: #818181;
+    }
+
+    .content .content-questions p{
+        color: #9a9a9a;
+        font-size: 18px;
+    }
+
+    .content .content-questions>*{
+        margin-bottom: 15px;
+    }
+
+    .content-2 .content-blocks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-2 .content-blocks .Blocks{
+        text-align: center;
+        width: 25%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .content-2 .content-blocks .Blocks h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        font-weight: normal;
+    }
+
+    .content-2 .content-blocks .Blocks i{
+        font-size: 110px;
+    }
+
+    .block1 i,.block3 i{
+        color: #c3c3c3;
+    }
+
+    .content-blocks .block2 i{
+        margin-top: 100px;
+        color: #1DA1F2;
+    }
+
+    .content-blocks .Blocks p{
+        color: #9a9a9a;
+    }
+
+    .content-informations {
+        margin-top: 100px;
+        background-color: #eeeeee;
+    }
+    .content-informations:before {
+        width: 100%;
+        display: inline-block;
+        content: '';
+        height: 52px;
+        background: #ffffff;
+        background-image: url('../img/setinha.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .content-informations:after {
+        width: 100%;
+        display: inline-block;
+        content: '';
+        height: 70px;
+        background: #eeeeee;
+    }
+
+    .blocos-all{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Blocos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 20px;
+        width: 29%;
+    }
+
+    .Blocos h1{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .Blocos p{
+        font-size: 15px;
+    }
+
+    .Blocos div{
+        border: 1px solid #c5c5c5;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+    .final{
+        width: 100%;
+    }
+
+    .final .logos{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .final .logos img{
+        padding: 20px 30px;
+    }
+
+    .final .final-rp>*{
+        width: 15%;
+        padding: 20px;
+    }
+
+    .final .final-rp h1{
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .final .final-rp spam{
+        display: flex;
+        align-items: center;
+    }
+    .final .final-rp spam i{
+        padding-right: 10px;
+        color: #292929;
+    }
+
+    .final .final-rp i{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .final .final-rp p{
+        font-size: 15px;
+        color: #1a1a1a;
+    }
+
+    .final .final-rp{
+        margin-top: 20px;
+        background-image: url("../img/footer.png");
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .postes .data p{
+        color: #000000;
+    }
+
+    .final .direitos{
+        width: 100%;
+        height: 80px;
+        background-image: url("../img/footer2.png");
+        color: #7a7a7a;
+
+    }
+
+    .final .direitos p{
+        width: 100%;
+        height: 80px;
+        font-family: "DM Sans";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

@@ -1,0 +1,46 @@
+    .head-2 .buttons a:hover{
+        border-bottom: 3px solid #32CD32;
+        color: #32CD32;
+    }
+
+    .Blocos div{
+        transition: 1s;
+    }
+
+    .Blocos div:hover{
+        transform: scale(1.05,1.05);
+    }
+
+    .Blocks{
+        transition: 1s;
+    }
+
+    .Blocks:hover{
+        transform: scale(1.1,1.1);
+    }
+
+    .head .sociais>*{
+        transition: 1s;
+    }
+
+    .head .sociais>*:hover{
+        transform: scale(1.2,1.2);
+    }
+
+    .head h1 {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .head h1:hover {
+        transform: scale(1.05,1.05);
+    }
+
+    .final .logos>*{
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .final .logos>*:hover{
+        transform: translateY(-20px);
+    }
